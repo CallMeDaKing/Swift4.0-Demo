@@ -14,6 +14,7 @@ import UIKit
 
 class Person {
     
+    // 在声明的属性后后面加上大括号实现willet 和didsSet 方法S
     var name : String  = ""{
         //选择其中之一即可
         //监听属性即将发生改变
@@ -33,6 +34,6 @@ class Person {
     
 }
 let p = Person()
-p.name = "king"
+p.name = "king"   //swift 中直接通过属性给他赋值，而我们之前在OC中 使用 @property 会自动生成get 和set 方法，那么我们在swift中如何监听属性变化呢，这就用到了属性监听器
 p.name = "li"
 
