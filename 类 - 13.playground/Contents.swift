@@ -75,7 +75,6 @@ stu.averageScore
 //类属性
 Student.courseCount = 2
 
-// >2.1 存储属性
 
 
 
