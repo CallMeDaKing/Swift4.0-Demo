@@ -11,4 +11,5 @@
 @interface NetTools : NSObject
 //传一个用于回调的block
 -(void)loadData:(void(^)(NSString *)) finishedCallback;
+
 @end

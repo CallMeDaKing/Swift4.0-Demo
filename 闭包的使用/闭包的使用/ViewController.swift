@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-//    只要是自己创建类，不需要导入任何东西
+//只要是自己创建类，不需要导入任何东西
     var httptools : NetTools?
     
     override func viewDidLoad() {

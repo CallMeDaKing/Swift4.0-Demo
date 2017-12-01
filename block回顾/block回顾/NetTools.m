@@ -10,6 +10,7 @@
 //写一个类扩展
 @interface NetTools()
 @property (nonatomic,copy) void (^finishedCallback)(NSString *);
+@property(nonatomic ,copy) NSString * name ;
 @end
 @implementation NetTools
 
