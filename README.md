@@ -1,2 +1,2 @@
 # Swift4.0StringDemo
-是用Swift4.0 写的一个小Demo 
+在Swift 3的基础上，结合Swift4.0语法改动，相应的知识点练习。

@@ -1,0 +1,6 @@
+framework module Pods___News {
+  umbrella header "Pods-网易News-umbrella.h"
+
+  export *
+  module * { export * }
+}

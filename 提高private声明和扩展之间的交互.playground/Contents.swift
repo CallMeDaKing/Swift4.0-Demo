@@ -2,6 +2,7 @@
 
 import UIKit
 
+//在同一个swift 文件中扩展
 struct King{
     private var name : String = ""
     fileprivate var age : Int = 18
@@ -28,6 +29,7 @@ extension King{
         print("可以获取到私有成员变量\(name)")
         
         }
+//        self.age      18 //可以获取到fileprivate 变量
     }
 }
 //这是另一个扩展
