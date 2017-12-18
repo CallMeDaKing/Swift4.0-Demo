@@ -9,7 +9,10 @@ struct King{
     init(name: String) {
         
         self.name = name
+    
     }
+    
+    
 }
 //这是一个类扩展
 extension King{
@@ -17,16 +20,16 @@ extension King{
     //我在扩展中又声明了一个私有变量
     //    private var brother : String = ""    //会报错 error: extensions may not contain stored properties
     private func mybrother(){
-        
+      
     }
     
     func callmeking(name : String) {
         if name == self.name {  //
         print("可以获取到私有成员变量\(name)")
+        
         }
     }
 }
-
 //这是另一个扩展
 extension King{
     func li() {
